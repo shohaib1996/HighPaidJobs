@@ -1,9 +1,9 @@
 "use client"
 
 import { useState } from "react"
-import { ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { ChevronRight } from "lucide-react"
 
 export default function FAQSection() {
   const [openItem, setOpenItem] = useState<string>("item-1")
@@ -47,9 +47,9 @@ export default function FAQSection() {
   ]
 
   return (
-    <div className="container mx-auto px-4 py-12">
-      <div className="text-center mb-8">
-        <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold mb-2 text-black">Got Questions? We've Got Answers</h2>
+    <div className="container px-4 py-12 mx-auto">
+      <div className="mb-8 text-center">
+        <h2 className="mb-2 text-2xl font-bold text-black md:text-3xl lg:text-5xl">Got Questions? We&apos;ve Got Answers</h2>
         <p className="text-black dark:text-gray-400">Find answers to our most frequently asked questions</p>
       </div>
 
@@ -58,44 +58,24 @@ export default function FAQSection() {
           <AccordionItem
             key={item.id}
             value={item.id}
-            className="border rounded-md bg-white dark:bg-gray-950 shadow-sm"
+            className="bg-white border rounded-md shadow-sm dark:bg-gray-950"
           >
             <AccordionTrigger className="px-6 py-4 hover:no-underline">
-              <span className="text-left font-medium text-black text-xl">{item.question}</span>
+              <span className="text-xl font-medium text-left text-black">{item.question}</span>
 
             </AccordionTrigger>
-            <AccordionContent className="px-6 pb-4 pt-0 text-black">{item.answer}</AccordionContent>
+            <AccordionContent className="px-6 pt-0 pb-4 text-black">{item.answer}</AccordionContent>
           </AccordionItem>
         ))}
       </Accordion>
 
-      <div className="text-center mt-8">
+      <div className="mt-8 text-center">
         <p className="mb-4 text-black">Have more questions? Ask us during your FREE consultation!</p>
-        <Button className="bg-primary hover:bg-blue-700 text-pure-white px-6 py-2 rounded-full">
-          Book Free Consultation <ChevronRight className="ml-2 h-4 w-4" />
+        <Button className="px-6 py-2 rounded-full bg-primary hover:bg-blue-700 text-pure-white">
+          Book Free Consultation <ChevronRight className="w-4 h-4 ml-2" />
         </Button>
       </div>
     </div>
   )
 }
 
-interface ChevronRightProps extends React.SVGProps<SVGSVGElement> {}
-
-function ChevronRight(props: ChevronRightProps) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <path d="m9 18 6-6-6-6" />
-        </svg>
-    )
-}

@@ -4,16 +4,16 @@ import { Button } from "../ui/button"
 
 const TicketToSuccess = () => {
     return (
-        <div className="w-full bg-background py-12 px-4 md:px-6 lg:px-8">
-            <div className=" text-center">
-                <h1 className="text-3xl md:text-4xl font-bold text-black mb-2">
+        <div className="w-full px-4 py-12 bg-background md:px-6 lg:px-8">
+            <div className="text-center ">
+                <h1 className="mb-2 text-3xl font-bold text-black md:text-4xl">
                     Why HighPaidJobs is your ticket <br/> to success
                 </h1>
-                <p className="text-black mb-10">We teach you the right skills and help you get hired!</p>
+                <p className="mb-10 text-black">We teach you the right skills and help you get hired!</p>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 container mx-auto">
+                <div className="container grid grid-cols-1 gap-6 mx-auto mb-8 md:grid-cols-3">
                     {/* Feature 1 */}
-                    <div className="bg-foreground p-6 rounded-lg shadow-sm flex flex-col items-center">
+                    <div className="flex flex-col items-center p-6 rounded-lg shadow-sm bg-foreground">
                         <div className="mb-4">
                             <svg width="52.500000" height="60.000000" viewBox="0 0 52.5 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <desc>
@@ -33,15 +33,15 @@ const TicketToSuccess = () => {
                             </svg>
 
                         </div>
-                        <h3 className="text-lg font-bold text-black mb-2">99.99% Guaranteed Job Placement</h3>
-                        <p className="text-black text-sm text-center">
+                        <h3 className="mb-2 text-lg font-bold text-black">99.99% Guaranteed Job Placement</h3>
+                        <p className="text-sm text-center text-black">
                             Land a $100k+ job in 8-16 weeks—or we keep working until you do
                         </p>
                     </div>
 
                     {/* Feature 2 */}
-                    <div className="bg-card p-6 rounded-lg shadow-sm flex flex-col items-center">
-                        <div className="text-cyan-400 mb-4">
+                    <div className="flex flex-col items-center p-6 rounded-lg shadow-sm bg-card">
+                        <div className="mb-4 text-cyan-400">
                             <svg width="50.710938" height="60.000244" viewBox="0 0 50.7109 60.0002" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <desc>
                                     Created with Pixso.
@@ -60,13 +60,13 @@ const TicketToSuccess = () => {
                             </svg>
 
                         </div>
-                        <h3 className="text-lg font-bold text-black mb-2">AI & Recession-Proof Careers</h3>
-                        <p className="text-black text-sm text-center">Future-ready roles that thrive no matter the economy</p>
+                        <h3 className="mb-2 text-lg font-bold text-black">AI & Recession-Proof Careers</h3>
+                        <p className="text-sm text-center text-black">Future-ready roles that thrive no matter the economy</p>
                     </div>
 
                     {/* Feature 3 */}
-                    <div className="bg-card p-6 rounded-lg shadow-sm flex flex-col items-center">
-                        <div className=" mb-4">
+                    <div className="flex flex-col items-center p-6 rounded-lg shadow-sm bg-card">
+                        <div className="mb-4 ">
                             <svg width="60.000000" height="60.000000" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <desc>
                                     Created with Pixso.
@@ -85,13 +85,13 @@ const TicketToSuccess = () => {
                             </svg>
 
                         </div>
-                        <h3 className="text-lg font-bold text-black mb-2">Live Interview Assistance</h3>
-                        <p className="text-black text-sm text-center">Our experts join your interviews to help you shine</p>
+                        <h3 className="mb-2 text-lg font-bold text-black">Live Interview Assistance</h3>
+                        <p className="text-sm text-center text-black">Our experts join your interviews to help you shine</p>
                     </div>
 
                     {/* Feature 4 */}
-                    <div className="bg-card p-6 rounded-lg shadow-sm flex flex-col items-center">
-                        <div className="text-cyan-400 mb-4">
+                    <div className="flex flex-col items-center p-6 rounded-lg shadow-sm bg-card">
+                        <div className="mb-4 text-cyan-400">
                             <svg width="58.216797" height="60.000000" viewBox="0 0 58.2168 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <desc>
                                     Created with Pixso.
@@ -110,13 +110,13 @@ const TicketToSuccess = () => {
                             </svg>
 
                         </div>
-                        <h3 className="text-lg font-bold text-black mb-2">One-on-One Mentoring</h3>
-                        <p className="text-black text-sm text-center">Personalized guidance tailored to your goals</p>
+                        <h3 className="mb-2 text-lg font-bold text-black">One-on-One Mentoring</h3>
+                        <p className="text-sm text-center text-black">Personalized guidance tailored to your goals</p>
                     </div>
 
                     {/* Feature 5 */}
-                    <div className="bg-card p-6 rounded-lg shadow-sm flex flex-col items-center">
-                        <div className="text-cyan-400 mb-4">
+                    <div className="flex flex-col items-center p-6 rounded-lg shadow-sm bg-card">
+                        <div className="mb-4 text-cyan-400">
                             <svg width="52.227539" height="60.000000" viewBox="0 0 52.2275 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <desc>
                                     Created with Pixso.
@@ -135,13 +135,13 @@ const TicketToSuccess = () => {
                             </svg>
 
                         </div>
-                        <h3 className="text-lg font-bold text-black mb-2">Salary Negotiation Boost</h3>
-                        <p className="text-black text-sm text-center">Secure an extra $5k-$10k on your offer—guaranteed</p>
+                        <h3 className="mb-2 text-lg font-bold text-black">Salary Negotiation Boost</h3>
+                        <p className="text-sm text-center text-black">Secure an extra $5k-$10k on your offer—guaranteed</p>
                     </div>
 
                     {/* Feature 6 */}
-                    <div className="bg-card p-6 rounded-lg shadow-sm flex flex-col items-center">
-                        <div className="text-cyan-400 mb-4">
+                    <div className="flex flex-col items-center p-6 rounded-lg shadow-sm bg-card">
+                        <div className="mb-4 text-cyan-400">
                             <svg width="54.662109" height="60.000000" viewBox="0 0 54.6621 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <desc>
                                     Created with Pixso.
@@ -161,13 +161,13 @@ const TicketToSuccess = () => {
 
 
                         </div>
-                        <h3 className="text-lg font-bold text-black mb-2">Probation Period Support</h3>
-                        <p className="text-black text-sm text-center">We're with you for your first 3-6 months on the job</p>
+                        <h3 className="mb-2 text-lg font-bold text-black">Probation Period Support</h3>
+                        <p className="text-sm text-center text-black">We&apos;re with you for your first 3-6 months on the job</p>
                     </div>
                 </div>
 
-                <Button className="bg-primary hover:bg-blue-700 text-white px-6 py-2 rounded-full">
-                    Book Free Consultation <ArrowRight className="ml-2 h-4 w-4" />
+                <Button className="px-6 py-2 text-white rounded-full bg-primary hover:bg-blue-700">
+                    Book Free Consultation <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
             </div>
         </div>

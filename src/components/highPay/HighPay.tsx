@@ -5,7 +5,7 @@ import { Card } from "../ui/card"
 
 const HighPay = () => {
     return (
-        <div className="px-4 py-12  bg-foreground">
+        <div className="px-4 py-12 bg-foreground">
             <div className="mb-10 text-center">
                 <h1 className="mb-2 text-4xl font-bold text-black">Your path to a High-Paying career</h1>
                 <p className="text-black">Follow our proven step-by-step process to land your dream job</p>
@@ -59,7 +59,7 @@ const HighPay = () => {
                             <div>
                                 <h3 className="mb-1 text-xl font-bold text-black">Land your dream job</h3>
                                 <p className="text-sm text-black">
-                                    We'll review your resume, connect you with recruiters, and prepare you for interviews.
+                                    We&apos;ll review your resume, connect you with recruiters, and prepare you for interviews.
                                 </p>
                             </div>
                         </div>

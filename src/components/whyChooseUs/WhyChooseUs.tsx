@@ -3,16 +3,16 @@ import Link from "next/link"
 
 export default function WhyChooseUs() {
     return (
-        <div className="w-full bg-background py-12 px-4 md:px-8">
-            <div className=" mx-auto">
-                <div className="text-center mb-8">
-                    <h2 className="text-3xl md:text-4xl font-bold text-black mb-2">Why Choose Us Over Others?</h2>
+        <div className="w-full px-4 py-12 bg-background md:px-8">
+            <div className="mx-auto ">
+                <div className="mb-8 text-center">
+                    <h2 className="mb-2 text-3xl font-bold text-black md:text-4xl">Why Choose Us Over Others?</h2>
                     <p className="text-black">See how our program delivers results where others fall short</p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 container mx-auto">
+                <div className="container grid grid-cols-1 gap-6 mx-auto md:grid-cols-3">
                     {/* Guaranteed Job Placement */}
-                    <div className="bg-foreground rounded-lg p-6 shadow-sm">
+                    <div className="p-6 rounded-lg shadow-sm bg-foreground">
                         <div className="flex justify-start mb-4">
                             <div className="w-12 h-12">
                                 <svg width="43.750000" height="50.000000" viewBox="0 0 43.75 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -34,41 +34,41 @@ export default function WhyChooseUs() {
 
                             </div>
                         </div>
-                        <h3 className="text-lg font-bold text-black mb-2">Guaranteed Job Placement</h3>
-                        <p className="text-sm text-black mb-4">
-                            We guarantee you'll get hired or we keep working with you for free
+                        <h3 className="mb-2 text-lg font-bold text-black">Guaranteed Job Placement</h3>
+                        <p className="mb-4 text-sm text-black">
+                            We guarantee you&apos;ll get hired or we keep working with you for free
                         </p>
 
-                        <div className="flex w-full justify-center gap-2 mb-2">
-                            <div className="bg-accent flex-1 text-black text-xs font-semibold px-3 py-1 rounded flex flex-col items-center">
+                        <div className="flex justify-center w-full gap-2 mb-2">
+                            <div className="flex flex-col items-center flex-1 px-3 py-1 text-xs font-semibold text-black rounded bg-accent">
                                 <p>HighPaidJobs</p>
-                                <p className="bg-primary rounded-full mt-2">  <Check className="text-white" /></p>
+                                <p className="mt-2 rounded-full bg-primary">  <Check className="text-white" /></p>
 
 
                             </div>
-                            <div className="bg-accent flex-1 text-black text-xs font-semibold px-3 py-1 rounded flex flex-col items-center">
+                            <div className="flex flex-col items-center flex-1 px-3 py-1 text-xs font-semibold text-black rounded bg-accent">
                                 <p >Others</p>
-                                <p className="bg-red-500 rounded-full mt-2"><X className="text-white"/></p>
+                                <p className="mt-2 bg-red-500 rounded-full"><X className="text-white"/></p>
                             </div>
                         </div>
 
 
                         {/* <div className="flex justify-between mb-4">
                             <div className="flex items-center justify-center w-16">
-                                <Check className="h-5 w-5 text-blue-600" />
+                                <Check className="w-5 h-5 text-blue-600" />
                             </div>
                             <div className="flex items-center justify-center w-16">
-                                <X className="h-5 w-5 text-red-500" />
+                                <X className="w-5 h-5 text-red-500" />
                             </div>
                         </div> */}
 
-                        <div className="bg-primary-foreground font-semibold text-secondary text-xs p-3 rounded">99.99% success rate within 8-16 weeks</div>
+                        <div className="p-3 text-xs font-semibold rounded bg-primary-foreground text-secondary">99.99% success rate within 8-16 weeks</div>
                     </div>
 
                     {/* Personalized Training */}
-                    <div className="bg-foreground rounded-lg p-6 shadow-sm">
+                    <div className="p-6 rounded-lg shadow-sm bg-foreground">
                         <div className="flex justify-start mb-4">
-                            <div className="w-12 h-12 flex items-center justify-center text-cyan-500">
+                            <div className="flex items-center justify-center w-12 h-12 text-cyan-500">
                                 <svg width="50.000000" height="49.988037" viewBox="0 0 50 49.988" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                     <desc>
                                         Created with Pixso.
@@ -88,30 +88,30 @@ export default function WhyChooseUs() {
 
                             </div>
                         </div>
-                        <h3 className="text-lg font-bold text-black mb-2">Personalized Training</h3>
-                        <p className="text-sm text-black mb-4">One-on-one instruction tailored to your learning style</p>
+                        <h3 className="mb-2 text-lg font-bold text-black">Personalized Training</h3>
+                        <p className="mb-4 text-sm text-black">One-on-one instruction tailored to your learning style</p>
 
-                        <div className="flex w-full justify-center gap-2 mb-2">
-                            <div className="bg-accent flex-1 text-black text-xs font-semibold px-3 py-1 rounded flex flex-col items-center">
+                        <div className="flex justify-center w-full gap-2 mb-2">
+                            <div className="flex flex-col items-center flex-1 px-3 py-1 text-xs font-semibold text-black rounded bg-accent">
                                 <p>HighPaidJobs</p>
-                                <p className="bg-primary rounded-full mt-2">  <Check className="text-white" /></p>
+                                <p className="mt-2 rounded-full bg-primary">  <Check className="text-white" /></p>
 
 
                             </div>
-                            <div className="bg-accent flex-1 text-black text-xs font-semibold px-3 py-1 rounded flex flex-col items-center">
+                            <div className="flex flex-col items-center flex-1 px-3 py-1 text-xs font-semibold text-black rounded bg-accent">
                                 <p >Others</p>
-                                <p className="bg-red-500 rounded-full mt-2"><X className="text-white"/></p>
+                                <p className="mt-2 bg-red-500 rounded-full"><X className="text-white"/></p>
                             </div>
                         </div>
 
 
-                        <div className="bg-primary-foreground font-semibold text-secondary text-xs p-3 rounded">Dedicated mentor throughout your journey</div>
+                        <div className="p-3 text-xs font-semibold rounded bg-primary-foreground text-secondary">Dedicated mentor throughout your journey</div>
                     </div>
 
                     {/* Interview Support */}
-                    <div className="bg-foreground rounded-lg p-6 shadow-sm">
+                    <div className="p-6 rounded-lg shadow-sm bg-foreground">
                         <div className="flex justify-start mb-4">
-                            <div className="w-12 h-12 flex items-center justify-center text-cyan-500">
+                            <div className="flex items-center justify-center w-12 h-12 text-cyan-500">
                                 <svg width="50.000000" height="50.000000" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                     <desc>
                                         Created with Pixso.
@@ -131,32 +131,32 @@ export default function WhyChooseUs() {
 
                             </div>
                         </div>
-                        <h3 className="text-lg font-bold text-black mb-2">Interview Support</h3>
-                        <p className="text-sm text-black mb-4">Expert guidance during the entire interview process</p>
+                        <h3 className="mb-2 text-lg font-bold text-black">Interview Support</h3>
+                        <p className="mb-4 text-sm text-black">Expert guidance during the entire interview process</p>
 
-                        <div className="flex w-full justify-center gap-2 mb-2">
-                            <div className="bg-accent flex-1 text-black text-xs font-semibold px-3 py-1 rounded flex flex-col items-center">
+                        <div className="flex justify-center w-full gap-2 mb-2">
+                            <div className="flex flex-col items-center flex-1 px-3 py-1 text-xs font-semibold text-black rounded bg-accent">
                                 <p>HighPaidJobs</p>
-                                <p className="bg-primary rounded-full mt-2">  <Check className="text-white" /></p>
+                                <p className="mt-2 rounded-full bg-primary">  <Check className="text-white" /></p>
 
 
                             </div>
-                            <div className="bg-accent flex-1 text-black text-xs font-semibold px-3 py-1 rounded flex flex-col items-center">
+                            <div className="flex flex-col items-center flex-1 px-3 py-1 text-xs font-semibold text-black rounded bg-accent">
                                 <p >Others</p>
-                                <p className="bg-red-500 rounded-full mt-2"><X className="text-white"/></p>
+                                <p className="mt-2 bg-red-500 rounded-full"><X className="text-white"/></p>
                             </div>
                         </div>
 
 
-                        <div className="bg-primary-foreground font-semibold text-secondary text-xs p-3 rounded">
+                        <div className="p-3 text-xs font-semibold rounded bg-primary-foreground text-secondary">
                             We join your interviews to help you succeed
                         </div>
                     </div>
 
                     {/* Post-Hire Support */}
-                    <div className="bg-foreground rounded-lg p-6 shadow-sm">
+                    <div className="p-6 rounded-lg shadow-sm bg-foreground">
                         <div className="flex justify-start mb-4">
-                            <div className="w-12 h-12 flex items-center justify-center text-cyan-500">
+                            <div className="flex items-center justify-center w-12 h-12 text-cyan-500">
                                 <svg width="48.513672" height="50.000000" viewBox="0 0 48.5137 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                     <desc>
                                         Created with Pixso.
@@ -176,30 +176,30 @@ export default function WhyChooseUs() {
 
                             </div>
                         </div>
-                        <h3 className="text-lg font-bold text-black mb-2">Post-Hire Support</h3>
-                        <p className="text-sm text-black mb-4">Continued assistance after you land your job</p>
+                        <h3 className="mb-2 text-lg font-bold text-black">Post-Hire Support</h3>
+                        <p className="mb-4 text-sm text-black">Continued assistance after you land your job</p>
 
-                        <div className="flex w-full justify-center gap-2 mb-2">
-                            <div className="bg-accent flex-1 text-black text-xs font-semibold px-3 py-1 rounded flex flex-col items-center">
+                        <div className="flex justify-center w-full gap-2 mb-2">
+                            <div className="flex flex-col items-center flex-1 px-3 py-1 text-xs font-semibold text-black rounded bg-accent">
                                 <p>HighPaidJobs</p>
-                                <p className="bg-primary rounded-full mt-2">  <Check className="text-white" /></p>
+                                <p className="mt-2 rounded-full bg-primary">  <Check className="text-white" /></p>
 
 
                             </div>
-                            <div className="bg-accent flex-1 text-black text-xs font-semibold px-3 py-1 rounded flex flex-col items-center">
+                            <div className="flex flex-col items-center flex-1 px-3 py-1 text-xs font-semibold text-black rounded bg-accent">
                                 <p >Others</p>
-                                <p className="bg-red-500 rounded-full mt-2"><X className="text-white"/></p>
+                                <p className="mt-2 bg-red-500 rounded-full"><X className="text-white"/></p>
                             </div>
                         </div>
 
 
-                        <div className="bg-primary-foreground font-semibold text-secondary text-xs p-3 rounded">Full support during probation period</div>
+                        <div className="p-3 text-xs font-semibold rounded bg-primary-foreground text-secondary">Full support during probation period</div>
                     </div>
 
                     {/* Salary Negotiation */}
-                    <div className="bg-foreground rounded-lg p-6 shadow-sm">
+                    <div className="p-6 rounded-lg shadow-sm bg-foreground">
                         <div className="flex justify-start mb-4">
-                            <div className="w-12 h-12 flex items-center justify-center text-cyan-500">
+                            <div className="flex items-center justify-center w-12 h-12 text-cyan-500">
                                 <svg width="43.522949" height="50.000000" viewBox="0 0 43.5229 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                     <desc>
                                         Created with Pixso.
@@ -219,30 +219,30 @@ export default function WhyChooseUs() {
 
                             </div>
                         </div>
-                        <h3 className="text-lg font-bold text-black mb-2">Salary Negotiation</h3>
-                        <p className="text-sm text-black mb-4">Expert techniques to maximize your compensation</p>
+                        <h3 className="mb-2 text-lg font-bold text-black">Salary Negotiation</h3>
+                        <p className="mb-4 text-sm text-black">Expert techniques to maximize your compensation</p>
 
-                        <div className="flex w-full justify-center gap-2 mb-2">
-                            <div className="bg-accent flex-1 text-black text-xs font-semibold px-3 py-1 rounded flex flex-col items-center">
+                        <div className="flex justify-center w-full gap-2 mb-2">
+                            <div className="flex flex-col items-center flex-1 px-3 py-1 text-xs font-semibold text-black rounded bg-accent">
                                 <p>HighPaidJobs</p>
-                                <p className="bg-primary rounded-full mt-2">  <Check className="text-white" /></p>
+                                <p className="mt-2 rounded-full bg-primary">  <Check className="text-white" /></p>
 
 
                             </div>
-                            <div className="bg-accent flex-1 text-black text-xs font-semibold px-3 py-1 rounded flex flex-col items-center">
+                            <div className="flex flex-col items-center flex-1 px-3 py-1 text-xs font-semibold text-black rounded bg-accent">
                                 <p >Others</p>
-                                <p className="bg-red-500 rounded-full mt-2"><X className="text-white"/></p>
+                                <p className="mt-2 bg-red-500 rounded-full"><X className="text-white"/></p>
                             </div>
                         </div>
 
 
-                        <div className="bg-primary-foreground font-semibold text-secondary text-xs p-3 rounded">Average $5-10k increase in offers</div>
+                        <div className="p-3 text-xs font-semibold rounded bg-primary-foreground text-secondary">Average $5-10k increase in offers</div>
                     </div>
 
                     {/* Money-Back Guarantee */}
-                    <div className="bg-foreground rounded-lg p-6 shadow-sm">
+                    <div className="p-6 rounded-lg shadow-sm bg-foreground">
                         <div className="flex justify-start mb-4">
-                            <div className="w-12 h-12 flex items-center justify-center text-cyan-500">
+                            <div className="flex items-center justify-center w-12 h-12 text-cyan-500">
                                 <svg width="42.259277" height="50.000000" viewBox="0 0 42.2593 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                     <desc>
                                         Created with Pixso.
@@ -262,31 +262,31 @@ export default function WhyChooseUs() {
 
                             </div>
                         </div>
-                        <h3 className="text-lg font-bold text-black mb-2">Money-Back Guarantee</h3>
-                        <p className="text-sm text-black mb-4">A risk-free investment in your future success!</p>
+                        <h3 className="mb-2 text-lg font-bold text-black">Money-Back Guarantee</h3>
+                        <p className="mb-4 text-sm text-black">A risk-free investment in your future success!</p>
 
-                        <div className="flex w-full justify-center gap-2 mb-2">
-                            <div className="bg-accent flex-1 text-black text-xs font-semibold px-3 py-1 rounded flex flex-col items-center">
+                        <div className="flex justify-center w-full gap-2 mb-2">
+                            <div className="flex flex-col items-center flex-1 px-3 py-1 text-xs font-semibold text-black rounded bg-accent">
                                 <p>HighPaidJobs</p>
-                                <p className="bg-primary rounded-full mt-2">  <Check className="text-white" /></p>
+                                <p className="mt-2 rounded-full bg-primary">  <Check className="text-white" /></p>
 
 
                             </div>
-                            <div className="bg-accent flex-1 text-black text-xs font-semibold px-3 py-1 rounded flex flex-col items-center">
+                            <div className="flex flex-col items-center flex-1 px-3 py-1 text-xs font-semibold text-black rounded bg-accent">
                                 <p >Others</p>
-                                <p className="bg-red-500 rounded-full mt-2"><X className="text-white"/></p>
+                                <p className="mt-2 bg-red-500 rounded-full"><X className="text-white"/></p>
                             </div>
                         </div>
 
-                        <div className="bg-primary-foreground font-semibold text-secondary text-xs p-3 rounded">15-day unconditional guarantee</div>
+                        <div className="p-3 text-xs font-semibold rounded bg-primary-foreground text-secondary">15-day unconditional guarantee</div>
                     </div>
                 </div>
 
-                <div className="text-center mt-10">
-                    <p className="text-black mb-4">Ready to experience the HighPaidJobs difference?</p>
+                <div className="mt-10 text-center">
+                    <p className="mb-4 text-black">Ready to experience the HighPaidJobs difference?</p>
                     <Link
                         href="#"
-                        className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-full transition-colors"
+                        className="inline-flex items-center justify-center gap-2 px-6 py-3 font-medium text-white transition-colors rounded-full bg-primary hover:bg-blue-700"
                     >
                         Book Free Consultation
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
